@@ -45,3 +45,8 @@ console.log(s5);
 console.log(typeof (s5));
 
 console.log("*****************************************");
+
+
+let s7="Sushant Desai";
+console.log(s7);
+console.log(typeof (s7));
