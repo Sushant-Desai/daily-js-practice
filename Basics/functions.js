@@ -94,4 +94,18 @@ greet2("Sushant", bye, seeU);
 
 setTimeout(function () {
     console.log("Hello from Sushant ");
-});
+},5000);
+
+
+
+const user = {
+  name: "Rahul",
+  age: 22,
+  isStudent: true
+};
+
+console.log("Object users "+ user.name);
+
+user.city ="Pune";
+
+console.log(user);
