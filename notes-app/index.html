@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Notes App</h1>
+        <div class="input-row">
+            <input type="text" id="note-input" placeholder="Enter your note here... ">
+            <button id="add-note-btn">Add Your Note</button>
+        </div>
+    </div>
+
+    <div id="notes-container">
+    </div>
+
+    <div class="modal-overlay hidden" id="message-modal">
+        <div class="modal-card">
+            <p id="modal-text">Message goes here.</p>
+            <button class="modal-close-btn" id="modal-close-btn">OK</button>
+        </div>
+    </div>
+
+    <script src="notes_app.js"></script>
+</body>
+
+</html>
