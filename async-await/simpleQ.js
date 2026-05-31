@@ -41,9 +41,7 @@ async function handlePromise() {
         console.log(result);
 
     } catch (error) {
-
         console.log(error);
-
     }
 
 }
