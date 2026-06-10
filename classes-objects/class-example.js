@@ -30,3 +30,4 @@ console.log(stud1, stud2, stud3);
 stud1.greet()
 stud2.greet()
 stud3.greet()
+l̥

@@ -25,7 +25,7 @@ async function showUser() {
         console.log(user);
     } catch (error) {
         console.log(error);
-        
+
     }
 
 }
